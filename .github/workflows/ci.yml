@@ -36,8 +36,8 @@ jobs:
 
       - name: Build backend image
         working-directory: server
-        run: docker build -t backend ./server
+        run: docker build -t backend .
 
       - name: Build frontend image
         working-directory: client
-        run: docker build -t frontend ./client
+        run: docker build -t frontend .
